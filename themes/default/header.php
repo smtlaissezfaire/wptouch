@@ -20,7 +20,7 @@ include( dirname(__FILE__) . '/../core/core-header.php' );
 <div id="prowl-fail"><p><?php _e("Your Push Notification cannot be delivered at this time.", "wptouch"); ?></p></div>
 <?php } } ?>
 
-<!--#start The Login Overlay -->
+<!-- #start The Login Overlay -->
 	<div id="wptouch-login">
 		<div id="wptouch-login-inner">
 			<form name="loginform" id="loginform" action="<?php bloginfo('wpurl'); ?>/wp-login.php" method="post">
